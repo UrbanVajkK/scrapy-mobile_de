@@ -24,7 +24,7 @@ def create_keyfile_dict():
     return variables_keys
 
 
-class spread_mobile():
+class SpreadMobile:
 
     def __init__(self, credential_path="/Users/Krisztian_Urban/Desktop/mobile_de_hza/mobilede-hasznaltauto.json"
                  , scope=None, email=str()):
@@ -73,7 +73,7 @@ class spread_mobile():
         return df_links
 
 
-meine_mobile = spread_mobile(scope=scope)
+meine_mobile = SpreadMobile(scope=scope)
 df_meine_mobile = meine_mobile.df_from_worksheet(meine_mobile.connect_to_spread())
 df_meine_mobile.head(5)
 

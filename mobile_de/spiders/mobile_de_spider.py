@@ -6,12 +6,10 @@ import pickle as pickle
 import smtplib
 from email.mime.text import MIMEText
 
-import spread_mobile
+from spread_mobile import SpreadMobile
 
 from_email = ["urbankrisztianvajk@gmail.com"]
 to_emails = ["urbankrisztianvajk@gmail.com"]
-
-
 
 
 class Mobile_deSpider(BaseSpider):
