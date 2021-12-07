@@ -11,5 +11,5 @@ BOT_VERSION = '1.0'
 
 SPIDER_MODULES = ['mobile_de.spiders']
 NEWSPIDER_MODULE = 'mobile_de.spiders'
-USER_AGENT = '%s/%s' % (BOT_NAME, BOT_VERSION)
+USER_AGENT = 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'
 

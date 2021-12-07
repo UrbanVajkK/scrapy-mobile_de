@@ -34,7 +34,6 @@ class SpreadMobile:
         self.credential_path = credential_path
         self.scope = scope
         self.email = email
-        self.d
 
     def connect_to_spread(self, str_spread_name="mobile"):
         """Return a spreadsheet"""
@@ -76,7 +75,7 @@ class SpreadMobile:
 meine_mobile = SpreadMobile(scope=scope)
 df_meine_mobile = meine_mobile.df_from_worksheet(meine_mobile.connect_to_spread())
 df_meine_mobile.head(5)
-
+df_meine_mobile.columns
 
 df_links = meine_mobile.get_links(df_meine_mobile)
 type(df_links)
@@ -84,4 +83,4 @@ type(df_links)
 link = df_links.iloc[0]
 type(link)
 
-#  Check results
+#  https://suchen.mobile.de/fahrzeuge/details.html?id=333515156&damageUnrepaired=NO_DAMAGE_UNREPAIRED&isSearchRequest=true&makeModelVariant1.makeId=3500&makeModelVariant1.modelId=10&minFirstRegistrationDate=2014-01-01&pageNumber=1&scopeId=C&sfmr=false&searchId=eabbac38-e310-71b9-d913-18b1c460c5e8'
