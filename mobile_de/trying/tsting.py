@@ -1,12 +1,7 @@
-
-import scrapy
 from scrapy import Spider
-from scrapy import Selector
-from scrapy.http.request import Request
-from mobile_de.items import MobileDeItem
 from spread_mobile import SpreadMobile
 from mobile_de_spider import Mobile_deSpider
-import bs4
+
 
 # grab data from spread
 spread_mobile = SpreadMobile()

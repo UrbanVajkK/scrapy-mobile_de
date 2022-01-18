@@ -1,0 +1,16 @@
+2022-01-18 12:25:02,753 (22103/MainThread) snowflake.cli.common.util_cli DEBUG       util_cli:645  - Initialized logging. Log file '../snowsql_rt.log', Namespaces: ['snowflake.cli', 'snowflake.connector', 'botocore', 'azure', '__main__', 'eventloop', 'sqlexecute']
+2022-01-18 12:25:02,753 (22103/MainThread) snowflake.cli.common.util_cli INFO       util_cli:681  - REQUESTS_CA_BUNDLE is already set to /var/folders/fs/tdj3qhf12jx36227wf_c_h3c0000gp/T/_MEI41vlUk/certifi/cacert.pem
+2022-01-18 12:25:02,754 (22103/MainThread) __main__ DEBUG      eventloop:209  - is_terminal: True, is_interactive: True
+2022-01-18 12:25:02,755 (22103/MainThread) snowflake.cli.sqlexecute DEBUG     sqlexecute:163  - starting sqlexecute
+2022-01-18 12:25:02,755 (22103/MainThread) snowflake.cli.common.config DEBUG         config:85   - Reading cnf: /Users/Krisztian_Urban/.snowsql/1.2.17/snowsql.cnf
+2022-01-18 12:25:02,756 (22103/MainThread) snowflake.cli.common.config DEBUG         config:85   - Reading cnf: /etc/snowsql.cnf
+2022-01-18 12:25:02,756 (22103/MainThread) snowflake.cli.common.config DEBUG         config:85   - Reading cnf: /etc/snowflake/snowsql.cnf
+2022-01-18 12:25:02,756 (22103/MainThread) snowflake.cli.common.config DEBUG         config:85   - Reading cnf: /usr/local/etc/snowsql.cnf
+2022-01-18 12:25:02,756 (22103/MainThread) snowflake.cli.common.config DEBUG         config:85   - Reading cnf: /Users/Krisztian_Urban/.snowsql.cnf
+2022-01-18 12:25:02,756 (22103/MainThread) snowflake.cli.common.config DEBUG         config:85   - Reading cnf: /Users/Krisztian_Urban/.snowsql/config
+2022-01-18 12:25:02,757 (22103/MainThread) __main__ DEBUG      eventloop:353  - [None, 'EPAM_LAB', None, 'COMPUTE_DW', None, 'URBANKRISZTIAN', None, 'kz74513.eu-central-1', None, None, None, None, None, None, 'ACCOUNTADMIN', None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+2022-01-18 12:25:02,758 (22103/MainThread) __main__ DEBUG      eventloop:359  - fallback to config values only if user did not specify a value and sqlexecute is connecting for the first time.
+2022-01-18 12:25:02,758 (22103/MainThread) __main__ DEBUG      eventloop:407  - host=None, port: + None
+2022-01-18 12:25:02,758 (22103/MainThread) __main__ DEBUG      eventloop:446  - prompting user, password and account if still missing
+2022-01-18 16:13:35,615 (22103/MainThread) __main__ INFO      eventloop:567  - rollback
+2022-01-18 16:13:35,616 (22103/MainThread) snowflake.cli.sqlexecute INFO     sqlexecute:363  - rollback

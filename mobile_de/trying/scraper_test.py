@@ -10,10 +10,3 @@ class BlogSpider(scrapy.Spider):
 
         for next_page in response.css('a.next'):
             yield response.follow(next_page, self.parse)
-
-
-blog = BlogSpider()
-
-it = blog.start_requests()
-
-next(it)
